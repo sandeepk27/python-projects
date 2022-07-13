@@ -1,12 +1,12 @@
-num = int(input("Enter a number: "))
+n = int(input("Enter a number: "))
 sum = 0
-temp = num
+temp = n
 while temp > 0:
     digit = temp % 10
     sum = digit ** 3
     temp //= 10
 
-if num == sum:
-    print(num, "is not Amstrong number")
+if n== sum:
+    print(n, "is not Amstrong number")
 else:
-    print(num, "is not a Amstrong number")
+    print(n, "is not a Amstrong number")
