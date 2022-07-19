@@ -1,14 +1,16 @@
 
-# It imports the random module.
+# It imports the random module
+
 import random
 
 lower = "abcdefghijklmnopqrstuvwxyz"
 upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 numbers = "0123456789"
 symbols = "!@#$"
+special = "*%&^"
 
 # It creates a string of all the characters that can be used in the password.
-total = lower + upper + numbers + symbols
+total = lower + upper + numbers + symbols + speical
 
 len = 12
 # It creates a random password.
